@@ -10,7 +10,7 @@ export const Operators = () => {
 	// const [operatorState, setOperatorState] = useState(operators);
 	// STEP 2 - add the imported data to state
 	return (
-		<div>
+		<div  className="operatorscontainer">
 			{operators.map( ( {value}, i ) => {
 				console.log(`value=${value}`)
 				return (
