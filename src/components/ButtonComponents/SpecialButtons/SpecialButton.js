@@ -1,9 +1,11 @@
 import React from "react";
 
-const SpecialButton = () => {
-  return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
-  );
+export const SpecialButton = ({buttonText, handlesetDisplay, display}) => {
+	
+
+	return (
+		<button onClick={() => handlesetDisplay(buttonText)}>
+			{buttonText}
+		</button>
+	);
 };
